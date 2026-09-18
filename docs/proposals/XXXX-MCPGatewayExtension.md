@@ -18,7 +18,7 @@ MCP-aware features like `XAccessPolicy` tool authorization require the Gateway t
 
 ## Use Cases & Motivation
 
-A platform operator deploys a Gateway and wants `XAccessPolicy` rules to apply to MCP tool calls. Without a signal to the Gateway that MCP parsing should be active on a listener, MCP traffic is opaque HTTP and tool-level policies have no effect.
+A platform operator deploys a Gateway and wants `XAccessPolicy` rules to apply to MCP tool calls. In some gateway implementations, without a signal to the Gateway that MCP parsing should be active on a listener, MCP traffic is opaque HTTP and tool-level policies have no effect.
 
 ## Design
 
